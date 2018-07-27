@@ -29,9 +29,9 @@ class Detention
     @grumpy_teacher
   end
   
-  # def students
-    
-  # end
+  def students
+    @students
+  end
   
   def add_student=(student)
     @student << student
