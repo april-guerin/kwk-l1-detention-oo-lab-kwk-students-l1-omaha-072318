@@ -2,6 +2,7 @@
 class Detention
   def initialize()
     @activity = "collective punishment"
+    @students = []
   end
   def activity
     @activity = "collective punishment"
@@ -28,9 +29,9 @@ class Detention
     @grumpy_teacher
   end
   
-  def students
-    @students = []
-  end
+  # def students
+    
+  # end
   
   def add_student=(student)
     @student << student
