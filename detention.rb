@@ -33,7 +33,7 @@ class Detention
   end
   
   def add_student=(student)
-    @student = @student << student
+    @student << student
   end
   def add_student
     @student
